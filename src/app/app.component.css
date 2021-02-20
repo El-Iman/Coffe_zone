@@ -1,0 +1,26 @@
+.col-md-3{
+position: fixed;
+top: 0%;
+left: 0;
+min-height: 100vh;
+}
+.col-md-9{
+  margin-left: auto;
+}
+.col-md-3,.col-md-9{
+  padding: 0;
+}
+.col-md-9{
+  padding-left: 8px;
+}
+
+@media(max-width:992px){
+  .col-md-3,.col-md-9{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .col-md-3{
+    position: static;
+    min-height: auto;
+  }
+}

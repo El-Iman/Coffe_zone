@@ -1,0 +1,149 @@
+
+.reservation{
+  font-weight: bold;
+  font-family: Oswald,sans-serif;
+  text-transform: uppercase;
+  background-image: url('../../../assets/images/1021781469_546_799_2751_1992_1000x541_80_0_0_bb52fcc73639563e2032385eaf137b68.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0px;
+  height: 500px;
+  color: white;
+  position: relative;
+  background-position:  bottom right;
+  width: 100%;
+}
+.reservation .container{
+  position: relative;
+  z-index: 20;
+}
+.reservation h2{
+  font-size: 5rem;
+}
+.reservation h4{
+  color: #ccc8c8d9;
+  font-weight: bold;
+}
+.reservation .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: #2b2828b3;
+}
+
+
+
+.reserve-form{
+  padding: 100px 50px;
+  background: rgb(248, 242, 232);
+  text-align: center;
+}
+.reserve-form .form-control{
+  padding: 1.1rem .75rem;
+  border-radius: 0;
+  height: auto;
+}
+.reserve-form .form-group{
+  margin-bottom: 8px;
+}
+.reserve-form  .btn-primary{
+  background: black;
+  color: white;
+  border-color: black;
+}
+.reserve-form  .btn-primary:hover{
+  background: orange;
+  border-color: orange;
+}
+
+.form-control.active{
+  border: 3px solid orange;
+  outline:0 !important;
+}
+.form-control:hover{
+  border: 2px solid rgb(179, 175, 175);
+}
+.reserve-form h3{
+  color: orange;
+  font-family: Satisfy,sans-serif;
+}
+.reserve-form h2{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: Oswald,sans-serif;
+    color: black;
+    margin-bottom: 30px;
+}
+.reserve-form .col-md-6{
+  margin-bottom: 40px;
+}
+.reserve-form .img{
+  width: 48%;
+  display: inline-block;
+  margin: 1%;
+  height: 100%;
+  position: relative;
+}
+.reserve-form .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.reserve-form .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  transition: .7s all;
+  background: #00000036;
+  cursor: pointer;
+}
+.reserve-form .overlay:hover{
+  opacity: 1;
+}
+.reserve-form .col-md-6{
+  margin-bottom: 8px;
+}
+
+.reserve-form .hr{
+  width: 250px;
+  margin: auto;
+  height: 1px;
+  background: rgb(209, 208, 208);
+  margin-bottom: 25px;
+}
+
+@media(max-width:1250px){
+  .reserve-form h2{
+    font-size: 3.5rem;
+  }
+}
+
+@media(max-width:800px){
+  .reservation h2{
+    font-size: 3.5rem;
+  }
+}
+
+@media(max-width:400px){
+  .reserve-form h2{
+    font-size: 3rem;
+  }
+  .reservation h2{
+    font-size: 2.5rem;
+  }
+}
+
+
+
+
+
+
+
+

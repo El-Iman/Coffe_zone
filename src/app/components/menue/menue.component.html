@@ -1,0 +1,132 @@
+<div class="page3">
+
+  <div class="menu">
+    <div class="container">
+      <div class="content">
+        <h2>OUR MENU</h2>
+        <h4>SELECT MENU BELOW:</h4>
+      </div>
+      <div class="sort">
+        <ul>
+          <li>
+            <a routerLink="/menu/" routerLinkActive="sort-active" [routerLinkActiveOptions]="{exact:true}">
+              <div class="img">
+                <img src="assets/images/icon1.png" alt="">
+              </div>
+
+              <div class="sort-info">
+                <h4>COFFEE</h4>
+                <h6>COFFEE & CAPPUCCINO</h6>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a routerLink="/menu/lunch" routerLinkActive="sort-active">
+              <div class="img">
+                <img src="assets/images/icon1.png" alt="">
+              </div>
+
+              <div class="sort-info">
+                <h4>LUNCH</h4>
+                <h6>COFFEE & CAPPUCCINO</h6>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a routerLink="/menu/everyDay" routerLinkActive="sort-active">
+              <div class="img">
+                <img src="assets/images/icon1.png" alt="">
+              </div>
+
+              <div class="sort-info">
+                <h4>DINNER</h4>
+                <h6>COFFEE & CAPPUCCINO</h6>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a routerLink="/menu/drinks" routerLinkActive="sort-active">
+              <div class="img">
+                <img src="assets/images/icon1.png" alt="">
+              </div>
+              <div class="sort-info">
+                <h4>DRINKS</h4>
+                <h6>COFFEE & CAPPUCCINO</h6>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </div>
+
+  <div class="rout">
+    <div class="list-coffee">
+      <ul>
+        <li>
+          <a routerLink="/menu/" routerLinkActive="sort-active" [routerLinkActiveOptions]="{exact:true}">
+            <div class="img">
+              <img src="assets/images/icon1.png" alt="">
+            </div>
+
+            <div class="sort-info">
+              <h4>COFFEE</h4>
+              <h6>COFFEE & CAPPUCCINO</h6>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a routerLink="/menu/lunch" routerLinkActive="sort-active">
+            <div class="img">
+              <img src="assets/images/icon1.png" alt="">
+            </div>
+
+            <div class="sort-info">
+              <h4>LUNCH</h4>
+              <h6>COFFEE & CAPPUCCINO</h6>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a routerLink="/menu/everyDay" routerLinkActive="sort-active">
+            <div class="img">
+              <img src="assets/images/icon1.png" alt="">
+            </div>
+
+            <div class="sort-info">
+              <h4>EVERY DAY</h4>
+              <h6>COFFEE & CAPPUCCINO</h6>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a routerLink="/menu/drinks" routerLinkActive="sort-active">
+            <div class="img">
+              <img src="assets/images/icon1.png" alt="">
+            </div>
+            <div class="sort-info">
+              <h4>DINNER</h4>
+              <h6>COFFEE & CAPPUCCINO</h6>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="rout2">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="button">
+    <button class="btn btn-warning">VIEW OURCOMPLETE MENU</button>
+  </div>
+
+</div>

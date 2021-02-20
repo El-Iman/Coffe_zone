@@ -1,0 +1,74 @@
+
+
+ul{
+  list-style: none;
+}
+ul li{
+  width: 50%;
+  display: flex;
+  border-bottom: 1px dashed rgba(0,0,0,.2);
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  float: left;
+}
+.info{
+  position: relative;
+  padding: 0px 30px 0px 50px;
+  }
+  li .info img{
+    width: 50px;
+      position: absolute;
+      left: -25px;
+      -webkit-filter: drop-shadow(3px 0 0 rgba(0,0,0,.5));
+      filter: drop-shadow(3px 0 0 rgba(0,0,0,.5));
+      transform: rotate(85deg);
+      top: -6px;
+  }
+
+  li h6{
+    margin-bottom: 0;
+    background-color: #e88f2a;
+    font-family: Open Sans,sans-serif;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem
+  }
+
+  li h4{
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 700;
+  }
+  li .price{
+    position: absolute;
+    right: 10%;
+  }
+  .info  p{
+    font-family: "Elsie Swash Caps";
+ }
+
+
+  @media(max-width:1250px){
+   ul li{
+     width: 100%;
+   }
+  }
+  @media(max-width:500px){
+    li .info img{
+      width: 30px;
+      height: 30px;
+    }
+    ul li{
+      padding: 15px 5px;
+    }
+    .info{
+      padding: 0px 10px;
+    }
+    li .price{
+      right: 0%;
+    }
+  }

@@ -1,0 +1,146 @@
+
+
+.sidebar.large{
+  background-image:url('../../../assets/images/surtido-cafe-negro-cafe-leche-vista-superior_23-2148441192.jpg') ;
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.sidebar .container{
+  background: black;
+}
+.sidebar  .overlay ,.sidebar .contain{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  overflow: auto;
+}
+.sidebar .overlay{
+  background: #2d2d2df4;
+ z-index: 1;
+}
+.sidebar .contain{
+  z-index: 2;
+  color: white;
+  padding: 40px 20px;
+}
+.sidebar .contain hr,.mobile .contain  hr{
+  border-top: 1px solid rgba(229, 222, 222, 0.82);
+  margin:2.6rem 50px
+
+}
+.sidebar .contain ul,.mobile ul{
+  list-style: none;
+}
+.sidebar .contain ul li,
+.mobile .contain  ul li{
+  margin-right: 40px;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  font-family: Oswald,sans-serif;
+  margin-bottom: 10px;
+}
+.sidebar .contain  a,.mobile .contain a{
+  text-decoration: none;
+  color: white;
+}
+.sidebar .contain li .linkActive ,
+.mobile .contain li .linkActive{
+  color: orange;
+}
+.sidebar .contain li:hover .linkActive,
+.mobile  .contain li:hover .linkActive{
+  color: white;
+}
+.sidebar .contain ul li:hover,
+.mobile .contain ul li:hover{
+  background-color: orange;
+  color: white ;
+}
+
+.sidebar .contain .social a,
+.mobile .contain .social a{
+ display: inline-flex;
+ margin:10px;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+
+
+.sidebar .contain p.copy,
+.mobile .contain p.copy{
+  margin-top: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.sidebar .contain p.design,
+.mobile .contain p.design{
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+
+@media(max-width:992px){
+  .large{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+}
+
+@media(min-width:993px){
+  .mobile{
+    display: none;
+  }
+  .large{
+    display: block;
+  }
+  nav{
+    display: none;
+  }
+}
+
+
+.mobile{
+  background-image:url('../../../assets/images/surtido-cafe-negro-cafe-leche-vista-superior_23-2148441192.jpg') ;
+
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mobile .navbar{
+  padding: 10px 30px !important;
+  background: #1f1e1ee0 !important
+}
+.mobile .contain ul li{
+  padding: 15px 50px;
+  text-align: center;
+}
+.mobile  .contain hr{
+  margin: 1rem 0;
+}
+
+.mobile .contain{
+margin: auto;
+}
+.mobile .contain p.design
+{
+  color: rgb(165, 163, 163);
+}
+
+.mobile .contain p.copy{color: white;}
+
+
+

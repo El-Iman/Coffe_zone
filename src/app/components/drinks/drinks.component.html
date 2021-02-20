@@ -1,0 +1,16 @@
+<ul>
+  <div *ngFor="let coffe of menu_coffee | slice :1:5  ">
+    <li>
+
+      <div class="info">
+        <img [src]="coffe.src" width="70px" height="70px">
+        <h4>{{coffe.name}}</h4>
+        <p>{{coffe.decs}}</p>
+      </div>
+      <div class="price">
+        <h6>{{coffe.price}} $ </h6>
+      </div>
+    </li>
+  </div>
+</ul>
+

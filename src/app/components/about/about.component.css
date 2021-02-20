@@ -1,0 +1,247 @@
+.page2{
+  background-image: url('../../../assets/images/WhatsApp Image 2020-08-20 at 4.26.20 PM.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about{
+  font-weight: bold;
+  font-family: Oswald,sans-serif;
+  text-transform: uppercase;
+  background-image: url('../../../assets/images/1021781469_546_799_2751_1992_1000x541_80_0_0_bb52fcc73639563e2032385eaf137b68.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0px;
+  height: 500px;
+  color: white;
+  position: relative;
+  background-position:  bottom right;
+  width: 100%;
+}
+
+.about .container{
+  position: relative;
+  z-index: 20;
+}
+.about h2{
+  font-size: 5rem;
+}
+.about h4{
+  color: #ccc8c8d9;
+  font-weight: bold;
+}
+.page2 .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: #2b2828b3;
+}
+
+/*
+  cafezone
+*/
+.cafezone{
+padding: 100px ;
+background: rgb(248, 242, 232);
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+}
+.cafezone .col-md-6:first-of-type .contain{
+  height: 100%;
+}
+.cafezone .col-md-6:nth-of-type(2) .contain{
+  padding: 50px 25px;
+}
+.cafezone .col-md-6 .contain h3,
+.location .col-md-6 .contain h3{
+  color: orange;
+  font-family: Satisfy,sans-serif;
+}
+.cafezone .col-md-6 .contain h4{
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Oswald,sans-serif;
+  color: black;
+}
+.cafezone .col-md-6 .contain h2,
+.location .col-md-6 .contain h2{
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: Oswald,sans-serif;
+  color: black;
+}
+.cafezone .col-md-6 .contain h5{
+font-family: Oswald,sans-serif;
+font-weight: 600;
+text-transform: capitalize;
+}
+.cafezone .col-md-6 .contain .hr,
+.location .col-md-6 .contain .hr{
+  height: 1px;
+  border-bottom: 2px solid #aca9a95e;
+  width: 48%;
+  margin: 30px auto 50px;
+}
+
+.cafezone .col-md-6 .contain p,
+.location .col-md-6 .contain p{
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-family: Maitree,sans-serif;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: rgb(73, 73, 73);
+}
+
+.cafezone .col-md-6 .contain .starts{
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.cafezone .col-md-6 .contain .starts span{
+  color: goldenrod;
+}
+.cafezone .col-md-6 .contain .starts span:last-of-type{
+  color: #80808054;
+}
+
+
+/*
+  owner
+*/
+.owner{
+  background: rgba(51, 51, 51, 0.51);
+  text-align: center;
+  color: white;
+  padding: 100px;
+  font-family: Oswald,sans-serif;
+}
+
+.owner .img{
+  width: 120px;
+  height: 120px;
+  padding: 4px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid gray;
+  margin: auto;
+}
+.owner .img img{
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.owner .content h2{
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.owner .content h6{
+  color: orange;
+}
+.owner .content p{
+  font-family: Maitree,sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.owner .content h3{
+  font-family: Satisfy,sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+
+/*
+  location
+*/
+
+.location{
+  padding: 100px 50px;
+  background: white;
+  text-align: center;
+}
+.location .col-md-6 .img{
+  height: 100%;
+}
+.location .col-md-6{
+  padding: 0;
+}
+.location .col-md-6 .contain{
+  padding:50px 40px;
+}
+.location .col-md-6 .contain p{
+  font-weight: 500;
+}
+.location .col-md-6 .contain p:first-of-type{
+  margin-bottom: .1rem;
+}
+.location .col-md-6 .contain p:nth-of-type(2){
+  margin-top: 0px;
+}
+
+
+@media(max-width:1250px){
+  .location .col-md-6 .contain h2{
+    font-size: 3.5rem;
+  }
+  .location .container{
+    padding-right: 0;
+  }
+  .location{
+    padding:60px 15px;
+  }
+}
+
+
+@media(max-width:530px){
+  .about h2,
+  .cafezone .col-md-6 .contain h2,
+  .owner .content h3,
+  .location .col-md-6 .contain h2{
+    font-size: 2.5rem;
+  }
+  .cafezone .col-md-6:nth-of-type(2) .contain{
+    padding: 50px 0px;
+  }
+  .about .container,
+  .owner ,.container,
+  .location .container{
+    padding-right: 0;
+  }
+  .about h4{
+    font-size: 1.2rem;
+  }
+  .cafezone,
+  .owner,
+  .location{
+    padding:60px 15px;
+  }
+
+  .cafezone .col-md-6
+  .location .col-md-6  .contain{
+    padding: 20px 10px  ;
+  }
+  .location .col-md-6 {
+    margin-bottom: 10px;
+  }
+  .location .col-md-6 .contain .hr{
+  margin: 30px auto 30px;
+
+  }
+}
+
+@media(max-width:767px){
+  .location .img iframe{
+    height: 450px;
+  }
+  .location .col-md-6{
+    margin-bottom: 20px;
+  }
+}

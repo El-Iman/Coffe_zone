@@ -1,0 +1,175 @@
+<div class="page1">
+  <div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="overlay"></div>
+          <img src="assets/images/pic3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Cafe $ Resturant</h3>
+            <h1>Welcome </h1>
+            <h2>the best cafee in london</h2>
+            <button class="btn btn-warning">more about us</button>
+            <button class="btn btn-default">reserve a table</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="overlay"></div>
+          <img src="assets/images/pic3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Cafe $ Resturant</h3>
+            <h1>Cappuccino </h1>
+            <h2>the best cafee in london</h2>
+            <button class="btn btn-warning">more about us</button>
+            <button class="btn btn-default">reserve a table</button>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+  <section class="about">
+    <div class="container">
+      <h3>Welcome</h3>
+      <h2>about us</h2>
+      <h4>CAFE & RESTAURANT</h4>
+      <div></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse varius enim in eros elementum tristique. Duis cursus,
+        mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat
+        . Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+    </div>
+  </section>
+
+
+  <section class="imformation">
+
+    <h1> DID YOU KNOW? </h1>
+    <h4>ABOUT OUR RESTAURANT:</h4>
+    <div class="row">
+
+      <div class="col-md-6  col-lg-3  col-sm-12">
+        <img src="assets/images/icon1.png">
+        <p>FAMOUS FOR OUR COFFEE</p>
+      </div>
+
+      <div class="col-md-6  col-lg-3  col-sm-12">
+        <img src="assets/images/icon2.png">
+        <p>FAMOUS FOR OUR COFFEE</p>
+      </div>
+
+      <div class="col-md-6  col-lg-3  col-sm-12">
+        <img src="assets/images/icon3.png">
+        <p>FAMOUS FOR OUR COFFEE</p>
+      </div>
+
+      <div class="col-md-6  col-lg-3  col-sm-12">
+        <img src="assets/images/icon4.png">
+        <p>FAMOUS FOR OUR COFFEE</p>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <section class="our-menu">
+    <div class="container">
+      <h2>OUR MENU</h2>
+      <h4>THESE ARE OUR SPECIALS:</h4>
+      <div class="buttons">
+        <a class="btn  " routerLink="/" routerLinkActive="btn-active" [routerLinkActiveOptions]="{exact:true}">
+          COFFEE</a>
+        <a class="btn " routerLink="/lunch" routerLinkActive="btn-active">LUNCH</a>
+        <a class="btn " routerLink="/everyDay" routerLinkActive="btn-active">EVERY DAY SPECIAL</a>
+      </div>
+      <div class="menu-cup">
+        <router-outlet></router-outlet>
+      </div>
+      <button class="btn btn-warning">VIEW OURCOMPLETE MENU</button>
+    </div>
+  </section>
+
+
+  <section class="authentic">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="contain">
+            <h3>Authentic</h3>
+            <h2>TASTEFUL</h2>
+            <h4>CAFE & RESTAURANT</h4>
+            <div></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+              Duis cursus, mi quis viverra ornare, eros dolor.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="content">
+            <div class="cont">
+              <div class="img">
+                <img src="assets/images/pic1.jpg" width="100%">
+              </div>
+              <div class="overlay"></div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="cont">
+              <div class="img">
+                <img src="assets/images/pic55 (1).jpg" width="100%">
+              </div>
+              <div class="overlay"></div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="cont">
+              <div class="img">
+                <img src="assets/images/pic3.jpg" width="100%">
+              </div>
+              <div class="overlay"></div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="cont">
+              <div class="img">
+                <img src="assets/images/pic4.jpg" width="100%">
+              </div>
+              <div class="overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
